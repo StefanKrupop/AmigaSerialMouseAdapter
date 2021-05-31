@@ -12,27 +12,30 @@ I used an "Arduino Pro Micro" clone. My connections are as follows, but this sho
 
 An MAX232 is used as a level shifter for the serial signals.
 
-Arduino - MAX232
-TXO - 10
-RXI - 9
-9 - 11
-10 - 12
+| Arduino | MAX232 |
+| ------- | ------ |
+| TXO     | 10     |
+| RXI     | 9      |
+| 9       | 11     |
+| 10      | 12     |
 
-MAX323 - DB9 (male)
-7 - 3
-8 - 2
-13 - 8
-14 - 7
-15 - 5
+| MAX323 | DB9 (male) |
+| ------ | ---------- |
+| 7      | 3          |
+| 8      | 2          |
+| 13     | 8          |
+| 14     | 7          |
+| 15     | 5          |
 
 ### Amiga
 
-Arduino - DB9 (female)
-A2 - 1
-A1 - 2
-A3 - 3
-A0 - 4
-14 - 6
-VCC (+5V) - 7
-GND - 8
-15 - 9
+| Arduino   | DB9 (female) |
+| --------- | ------------ |
+| A2        | 1            |
+| A1        | 2            |
+| A3        | 3            |
+| A0        | 4            |
+| 14        | 6            |
+| VCC (+5V) | 7            |
+| GND       | 8            |
+| 15        | 9            |
